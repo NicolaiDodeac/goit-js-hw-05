@@ -2,7 +2,7 @@
 
 // Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її викликів.
 
-getUserNames = (users) => users.map((item) => item.name);
+const getUserNames = (users) => users.map((item) => item.name);
 
 console.log(
   getUserNames([
